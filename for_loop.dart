@@ -1,10 +1,8 @@
-void forLoop() {
-  for (int i = 1; i <= 10; i++) {
-    print(i);
-  }
+void main() {
+  printName();
 }
 
-// Temporary main function to test forLoop
-void main() {
-  forLoop();
+void printName() {
+  print("Ahura Benedict");
 }
+
