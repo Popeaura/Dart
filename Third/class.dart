@@ -1,3 +1,4 @@
+/*
 // Declaring a class in Dart
 class Person {
   // Properties of the class
@@ -21,3 +22,6 @@ void main() {
   // Calling the method to display details
   p.displayInfo();
 }
+*/
+
+//Declaring class in dart 
