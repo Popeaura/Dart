@@ -24,4 +24,45 @@ void main() {
 }
 */
 
+
+/*
 //Declaring class in dart 
+class person {
+  //properties of my class 
+  String gender;
+  int age;
+
+
+  //constructor
+  person(this.gender, this.age);
+
+
+  //method to display person's details
+  void displayInfo(){
+    print('Gender: $gender, Age: $age');
+  }
+} */
+
+
+//Declaring another class
+class car {
+
+  //properties
+  String Brand;
+  int warrant;
+
+  car(this.Brand , this.warrant);
+
+//method to display cars details
+void showDetails(){
+  print('Brand: $Brand, warrant: $warrant');
+}
+}
+
+void main (){
+  //creating an object of the car class
+  car myCar = car('Mazda', 7);
+
+  //calling the method using the object
+  myCar.showDetails();
+}
