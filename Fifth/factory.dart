@@ -10,5 +10,11 @@ class Circle{
   //Factory constructor to control instance creation 
   factory Circle.create(double radius){
     //Ensure the radius is positive before creating an instance
+    if(radius > 0){
+      return Circle(radius); //radius a new instance
+    }else{
+      //Throw an error if the radius is not valid
+      throw ArgumentError('Radius must be greater than zero');
+    }
   }
 }
