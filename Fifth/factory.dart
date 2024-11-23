@@ -17,4 +17,6 @@ class Circle{
       throw ArgumentError('Radius must be greater than zero');
     }
   }
+
+  //method to calculate the area of the circle
 }
